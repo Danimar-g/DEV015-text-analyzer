@@ -4,10 +4,32 @@
 <head>
   <meta charset="utf-8">
   <title>Analizador de texto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <header>
+  <h1 class="title">Analizador de Texto</h1>
+</header>
+<ul>
+  <li>Caracteres:</li>
+  <li>Caracteres Sin Espacio:</li>
+  <li>Palabras:</li>
+  <li>Números:</li>
+  <li>Suma Números:</li>
+  <li>Promedio Longitud:</li>
+</ul>
+<main>
+  <h2><label for="nombre">Escribe Texto para Analizar:</label></h2> <br> 
+ <textarea type="text" id="Texto" name="Texto"></textarea> 
+  <button id="reset-button">Limpiar Texto</button> <br>
+</main>
   <script src="index.js" type="module"></script>
+  <footer>
+    <p>Daniela Martínez</p>
+  </footer>
 </body>
 </html>
