@@ -8,6 +8,7 @@ const { window } = page;
 const { document } = window;
 
 const stylesPath = document.querySelector('link[rel="stylesheet"]').getAttribute('href');
+console.log(stylesPath)
 const style = fs.readFileSync('./src/' + stylesPath, 'utf-8');
 const { rules } = css.parse(style).stylesheet;
 
