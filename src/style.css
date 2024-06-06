@@ -7,7 +7,7 @@
 header {
   font-family: "Mooli", sans-serif;
   text-align: center;
-  background: #E1CDC6;
+  background: #e1cdc6;
   color: #564335;
   padding: 10px 0;
 }
@@ -17,7 +17,7 @@ header {
   text-align: left;
   display: inline-block;
   margin-right: 10px;
-  border-width: 1px #F4DAB5;
+  border-width: 1px #f4dab5;
   border-style: dotted;
   border-radius: 20px;
   padding: 5px;
@@ -26,8 +26,8 @@ header {
 body {
   font-family: "Mooli", sans-serif;
   text-align: center;
-  background: #F1E9E6;
-  color: #C49488;
+  background: #f1e9e6;
+  color: #c49488;
   padding: 10px 0;
 }
 
@@ -40,7 +40,7 @@ textarea[name="user-input"] {
   border-radius: 25px;
   padding: 10px;
   height: 200px;
-  border: #F2B892;
+  border: #f2b892;
   border-width: 3px;
   border-style: solid;
   margin: auto;
@@ -56,8 +56,8 @@ textarea[name="user-input"] {
   margin: auto;
   margin-top: 3rem;
   padding: 30px;
-  background-color: #E1CDC6;
-  border: #C49488;
+  background-color: #e1cdc6;
+  border: #c49488;
   border-width: 3px;
   border-style: solid;
   cursor: pointer;
