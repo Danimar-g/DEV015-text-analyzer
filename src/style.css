@@ -12,7 +12,7 @@ header {
   padding: 10px 0;
 }
 
-ul li {
+.item {
   font-family: "Mooli", sans-serif;
   text-align: left;
   display: inline-block;
@@ -47,7 +47,7 @@ textarea[name="user-input"] {
   display: block;
 }
 
-button {
+#reset-button {
   font-family: "Mooli", sans-serif;
   font-weight: normal;
   font-size: 100%;
