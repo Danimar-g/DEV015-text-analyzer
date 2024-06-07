@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Analizador de textos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mooli&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Analizador de Texto</h1>
+    </header>
+    <ul>
+      <li class="item" data-testid="character-count">Caracteres:</li>
+      <li class="item" data-testid="character-no-spaces-count">Sin Espacio:</li>
+      <li class="item" data-testid="word-count">Palabras:</li>
+      <li class="item" data-testid="number-count">Números:</li>
+      <li class="item" data-testid="number-sum">Suma Números:</li>
+      <li class="item" data-testid="word-length-average">Promedio Longitud:</li>
+    </ul>
+    <main>
+      <h2><label for="nombre">Escribe Texto para Analizar:</label></h2>
+      <br />
+      <textarea
+        name="user-input"
+        placeholder="Escribe tu texto aquí"
+      ></textarea>
+      <button id="reset-button">Limpiar Texto</button> <br />
+    </main>
+    <script src="index.js" type="module"></script>
+    <footer>
+      <p>Daniela Martínez</p>
+    </footer>
+  </body>
+</html>

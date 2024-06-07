@@ -1,0 +1,73 @@
+*{
+  font-family: "Mooli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  font-family: "Mooli", sans-serif;
+  text-align: center;
+  background: #e1cdc6;
+  color: #564335;
+  padding: 10px 0;
+}
+
+.item {
+  font-family: "Mooli", sans-serif;
+  text-align: left;
+  display: inline-block;
+  background-color: #f4dab5;
+  margin-right: 10px;
+  border-width: 1px #f4dab5;
+  border-style: dotted;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+body {
+  font-family: "Mooli", sans-serif;
+  text-align: center;
+  background: #f1e9e6;
+  color: #c49488;
+  padding: 10px 0;
+}
+
+textarea[name="user-input"] {
+  font-family: "Mooli", sans-serif;
+  font-size: 100%;
+  background: #f1f0f8;
+  box-sizing: border-box;
+  width: 500px;
+  border-radius: 25px;
+  padding: 10px;
+  height: 200px;
+  border: #f2b892;
+  border-width: 3px;
+  border-style: solid;
+  margin: auto;
+  display: block;
+}
+
+#reset-button {
+  font-family: "Mooli", sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+  width: 20%;
+  display: block;
+  margin: auto;
+  margin-top: 3rem;
+  padding: 30px;
+  background-color: #e1cdc6;
+  border: #c49488;
+  border-width: 3px;
+  border-style: solid;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+footer {
+  font-family: "Mooli", sans-serif;
+  text-align: right;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
