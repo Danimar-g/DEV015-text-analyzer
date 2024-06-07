@@ -1,4 +1,4 @@
-.mooli-regular {
+*{
   font-family: "Mooli", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -16,6 +16,7 @@ header {
   font-family: "Mooli", sans-serif;
   text-align: left;
   display: inline-block;
+  background-color: #f4dab5;
   margin-right: 10px;
   border-width: 1px #f4dab5;
   border-style: dotted;
