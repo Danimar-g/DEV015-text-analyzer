@@ -24,11 +24,13 @@ const analyzer = {
     const TotalPalabras = text.split(" ");
     const TotalCaracteres = text.replace(/\s+/g, "").length;
     const Promedio = TotalCaracteres / TotalPalabras.length;
-    return Promedio.toFixed(2);
+    return Number(Promedio.toFixed(2));
   },
   getNumberCount: (text) => {
     //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
-    return text.match(/\b\d+(\.\d+)?\b/g).length;
+    const numbers = text.match(/\b\d+(\.\d+)?\b/g);
+    const numberCount = numbers ? numbers.length : 0;
+    return numberCount;
   },
   getNumberSum: (text) => {
     const regex = /\b\d+(\.\d+)?\b/g;
