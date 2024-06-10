@@ -11,7 +11,7 @@ Aqui encontraras la explicacion de este analizador de texto en el navegador most
   
 ## 2. Ejemplo
 Aquí podemos observar un ejemplo del producto final:
-<span>![</span><span>Analizador de texto</span><span>]</span><span>(</span><span>analizador de texto.png</span><span>)</span>
+![Analizador de texto](Analizador%20de%20texto.jpg)
 
 ## 3. Creación
 Este Proyecto fue creado en alrededor de 4 semanas, donde:
